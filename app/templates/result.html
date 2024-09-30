@@ -1,0 +1,17 @@
+<!-- app/templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Impact Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app\static\css\style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Environmental Impact Score for {{ product }}</h1>
+        <p>Here, you will see the environmental impact score based on various metrics.</p>
+        <a href="/">Check another product</a>
+    </div>
+</body>
+</html>
